@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EC5E2FD-9032-1D17-70D1-A377D51B5596" containerWithKeyObject="4B7A801F-CB3F-B364-A65B-B77B0B058B16" localFKIndex="1ED99E25-7983-6F85-4F49-FBDE33C813CD" name="TBL_SERVICIOS_X_PLANES_TBL_PLANES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:48:26 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<referredTableLongName>TBL_PLANES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D31A17B1-8288-79C9-4B5D-014678780DED</referredTableID>
+<keyObject>344D588F-3BE7-4B55-49E6-A6979F97D2AD</keyObject>
+<referredKeyID>344D588F-3BE7-4B55-49E6-A6979F97D2AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PLAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

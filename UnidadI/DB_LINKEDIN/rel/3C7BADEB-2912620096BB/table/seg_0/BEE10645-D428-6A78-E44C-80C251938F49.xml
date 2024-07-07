@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEE10645-D428-6A78-E44C-80C251938F49" name="TBL_AREAS_ESTUDIO">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:42:22 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AREA_ESTUDIO" id="4C4D807D-8B90-55D3-B8A1-54B1F21624F4">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:43:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_AREA_ESTUDIO" id="85217803-5A3B-C2BF-5710-B576F86D314A">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:43:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79C690CB-8E9F-9559-0008-BE9898E572E2" name="TBL_AREAS_ESTUDIO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:43:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C4D807D-8B90-55D3-B8A1-54B1F21624F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

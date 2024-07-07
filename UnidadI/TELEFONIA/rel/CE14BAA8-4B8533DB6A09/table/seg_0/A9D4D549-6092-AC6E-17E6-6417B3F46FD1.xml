@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9D4D549-6092-AC6E-17E6-6417B3F46FD1" name="TBL_SERVICIOS_X_LINEAS">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:22:50 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LINEA_TELEFONICA" id="C3FD57B5-4AFE-F35F-10A9-C353BA21C2C5">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:29 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E4D8375-F818-B3F0-A624-1124D09EE545" referredColumn="4EA94A54-4CD5-6AE6-2166-D2F78642BE67"/>
+</associations>
+</Column>
+<Column name="CODIGO_SERVICIO" id="DE7A763D-1081-977D-C85D-131B9BCD3739">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DDD3CBA-6F9C-EB2A-1FEA-EEA0DD943A37" referredColumn="CF55B914-8740-68D0-091B-A5739A09468E"/>
+</associations>
+</Column>
+<Column name="FECHA_EXPIRACION" id="00C5AA4B-EF66-96CE-1F9A-CC6C120DFA07">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:01 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="F8E1751E-F609-168F-BF2B-CF4907F152DD">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:01 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32FD0E24-4E3F-9FB3-A01B-5CBD8AC11DF5" name="TBL_SERVICIOS_X_LINEAS_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:29 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3FD57B5-4AFE-F35F-10A9-C353BA21C2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07ACC049-FDE0-7971-E753-56613D0AC48E" name="TBL_SERVICIOS_X_LINEAS_TBL_SERVICIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:30:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7A763D-1081-977D-C85D-131B9BCD3739"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

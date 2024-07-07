@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="091D0EF7-CB94-5B4F-5AC7-AFEFD1688FEA" containerWithKeyObject="A48AD38B-B83E-07A5-7BA1-2F8AB05E49EF" localFKIndex="8FB32B0B-B9DE-E425-8183-AD676D85D24A" name="TBL_SUSCRIPTORES_TBL_TIPOS_IDENTIFICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-25 00:43:59 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_IDENTIFICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECBDB7F0-841E-DF67-3CF9-A422412738DE</referredTableID>
+<keyObject>E2AFA876-BAFA-6991-F744-E063AB651D26</keyObject>
+<referredKeyID>E2AFA876-BAFA-6991-F744-E063AB651D26</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_IDENTIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

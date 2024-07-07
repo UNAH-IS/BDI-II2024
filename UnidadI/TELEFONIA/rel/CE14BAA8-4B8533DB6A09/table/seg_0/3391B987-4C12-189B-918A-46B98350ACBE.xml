@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3391B987-4C12-189B-918A-46B98350ACBE" name="TBL_EMPLEADOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:25:42 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="284EEFF2-6F8F-7FCD-2E3C-5D26D45FA817">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO_SUPERIOR" id="46DB83BF-7CD0-8C5B-0A5E-37F1E88DA320">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:45 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B95730D-F596-653B-DF94-00582A7816E9" referredColumn="284EEFF2-6F8F-7FCD-2E3C-5D26D45FA817"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUESTO" id="EF93901D-A73B-1229-2CEA-20193740D3E9">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:39 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5E7903C-D162-2560-4D80-59D6D6BCD7B7" referredColumn="4CB8A3D6-9B6C-DEC4-43EF-8124306773C0"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="2318B9FC-B597-073A-83FE-4827254FADB7">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:28:54 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA5F9412-AF44-19C8-F91A-DF121A898BDE" referredColumn="C447B4A7-2307-9D94-00CD-2A37C504BD65"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="B84453BA-6E1C-2C5B-13A6-10AC9B93536C">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:29:00 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="828288A4-66C5-3EDA-0826-4AB6C2DE4A72" referredColumn="C447B4A7-2307-9D94-00CD-2A37C504BD65"/>
+</associations>
+</Column>
+<Column name="CODIGO_SUCURSAL" id="3CA16CA2-1BA5-E025-0C5F-6929F0019288">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:41:33 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDA2D846-9BE1-D599-A815-EA6959F4125A" referredColumn="229958F5-9FDE-37B1-4B60-0DB6ED8B13A4"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="188220B9-5461-1BC1-019D-0520B596E35B">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="1B1A0908-0247-3552-7059-C2C1E8A43148">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="D0D2F87C-DF66-44B7-58AE-50847022E970">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="A3665C23-C6F4-41D6-241B-FA337A883D51">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CONTRATACION" id="A2780DA1-2E73-5AB1-7C9F-59E391F507B5">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA4B644-EF63-838D-079C-B00999CDED63" name="TBL_EMPLEADOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:40 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284EEFF2-6F8F-7FCD-2E3C-5D26D45FA817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933FC064-6B68-EDE5-7972-129EB29DEFCD" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:45 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46DB83BF-7CD0-8C5B-0A5E-37F1E88DA320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="802F26BF-B5B6-3B6F-8B0A-783EC248E80E" name="TBL_EMPLEADOS_TBL_PUESTOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:39 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF93901D-A73B-1229-2CEA-20193740D3E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="384D657A-B51A-BD05-23E8-96D61650E08C" name="TBL_EMPLEADOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:28:54 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2318B9FC-B597-073A-83FE-4827254FADB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DABD2CC-2B8B-D57B-AB4F-AFD80E4F54C9" name="TBL_EMPLEADOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:29:00 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84453BA-6E1C-2C5B-13A6-10AC9B93536C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A303ADA-B299-997A-88BF-FDEA333166A5" name="TBL_EMPLEADOS_TBL_SUCURSALES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:41:33 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA16CA2-1BA5-E025-0C5F-6929F0019288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B98042B0-22AF-BF5A-2E3A-BC214886BE4B" containerWithKeyObject="263FC6DA-315A-704F-FEB0-12FD0C1402DC" localFKIndex="57C4B3FB-4EFD-64BE-C7AC-D3A04292185D" name="TBL_LOGROS_TBL_MODALIDADES_TITULOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:39:31 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_MODALIDADES_TITULOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>500EA1E4-DE88-ED35-6E5F-C8ACB17C8A83</referredTableID>
+<keyObject>9051407C-474A-A077-1466-13F5F05B92FE</keyObject>
+<referredKeyID>9051407C-474A-A077-1466-13F5F05B92FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MODALIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

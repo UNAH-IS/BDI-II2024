@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFC50B94-29C9-3AE9-00B1-1FA62283C821" name="TBL_CERTIFICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:40:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CERTIFICADO" id="53BA38B0-D851-0E7E-71C3-708862977859">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:42:16 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BEABEFA-BD81-CB01-93AA-B3509D9DFEC0" referredColumn="61B6A58E-166B-AD73-B8E3-16B6EB195A9F"/>
+</associations>
+</Column>
+<Column name="TEMA" id="5798A078-3512-8C0C-F1A3-359420F37004">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:41:18 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_NIVEL" id="2B556753-7894-117C-A0D8-7E92B9EF549A">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:42:10 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="894E273E-56FC-CC32-7B52-C48840CC615B" referredColumn="3576847D-0A58-4D1D-B03C-FFF68866E0C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B125C3A5-6BF2-9FB8-C087-CC9AF6496697" name="TBL_CERTIFICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:43:31 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BA38B0-D851-0E7E-71C3-708862977859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D374BFF5-B371-866C-046B-E882A2ACAB3E" name="TBL_CERTIFICACIONES_TBL_NIVELES_CERTIFICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:42:10 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B556753-7894-117C-A0D8-7E92B9EF549A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="623DD49C-8CB5-3666-4A38-E53590056916" name="TBL_CERTIFICACIONES_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:42:16 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BA38B0-D851-0E7E-71C3-708862977859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

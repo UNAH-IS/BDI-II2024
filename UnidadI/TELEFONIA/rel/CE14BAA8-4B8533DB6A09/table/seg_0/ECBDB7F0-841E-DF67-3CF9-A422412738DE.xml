@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECBDB7F0-841E-DF67-3CF9-A422412738DE" name="TBL_TIPOS_IDENTIFICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-25 00:42:49 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_IDENTIFICACION" id="1E3BE142-A5B5-33E2-0513-BD5492BD1DFF">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-25 00:43:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_IDENTIFICACION" id="384928DD-47D0-CBE9-36E4-FE8D67BFFC9F">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-25 00:43:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2AFA876-BAFA-6991-F744-E063AB651D26" name="TBL_TIPOS_IDENTIFICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-25 00:43:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E3BE142-A5B5-33E2-0513-BD5492BD1DFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

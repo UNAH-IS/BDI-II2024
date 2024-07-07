@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6A116B3-F391-8B97-1ABE-1228576A3538" name="TBL_USUARIOS_X_GRUPO">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:49:07 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="5251C57F-30D7-BAD1-9EC8-E9BB76F8F2B8">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:50:05 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E2A358A-8695-EA7C-85F6-4C13A1D94C81" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_GRUPO" id="A40EE61C-586B-4A3F-AF89-7C1CE7BD6A3D">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:50:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B3EC9A0-DC8D-3C75-111A-E49EAD97542D" referredColumn="783828BA-5D3E-C8D8-CF10-9B00E723C387"/>
+</associations>
+</Column>
+<Column name="FECHA_AFILIACION" id="99DCDFA7-2349-7945-10B3-065C54F7BC80">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:49:30 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACEPTADO" id="2D9EC048-CDE4-849F-E9B7-D26EA452F284">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:50:00 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDDC3F0B-C935-E162-41BE-C9E87CA20D5D" name="TBL_USUARIOS_X_GRUPO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:51:45 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40EE61C-586B-4A3F-AF89-7C1CE7BD6A3D"/>
+<colUsage columnID="5251C57F-30D7-BAD1-9EC8-E9BB76F8F2B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD2F7492-FEE4-5987-0C45-7173222535C1" name="TBL_USUARIOS_X_GRUPO_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:50:05 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5251C57F-30D7-BAD1-9EC8-E9BB76F8F2B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46066C90-7A7B-C18B-459E-E0978C939589" name="TBL_USUARIOS_X_GRUPO_TBL_GRUPOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:50:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40EE61C-586B-4A3F-AF89-7C1CE7BD6A3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

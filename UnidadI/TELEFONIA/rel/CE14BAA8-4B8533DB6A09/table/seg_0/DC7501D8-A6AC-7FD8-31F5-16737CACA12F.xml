@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC7501D8-A6AC-7FD8-31F5-16737CACA12F" name="TBL_PAQUETES_PREPAGO">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:49:26 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAQUETE" id="8BFAB0A9-FB83-6B92-46F9-1C640B07483F">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:50:57 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAQUETE" id="0E15DDD1-39E0-8F15-C9C2-4E448C10D6ED">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:50:57 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="BE28D285-4B57-CA5A-E07E-C63F4D7CDD95">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:50:57 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_EXPIRACION" id="E8C670B8-A4FE-2E74-9D4E-863584D19DFD">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:50:57 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EFB164D-419B-F0C6-2272-E03A71BA2620" name="TBL_PAQUETES_PREPAGO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:51:06 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFAB0A9-FB83-6B92-46F9-1C640B07483F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7203CEA9-A5B6-5E59-696E-1CC750604A7B" name="TBL_PUNTOS_VENTAS">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:38 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUNTO_VENTA" id="EB5D761C-7EF3-5A99-2167-FE9AEDCA23DE">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:43:40 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUNTO_VENTA" id="24706D41-7AAC-F28A-CFE8-68D39C0BAA0E">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:43:40 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="D927F778-0967-63C0-DF19-B3B4041839EF">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:43:40 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="7340A963-9DCF-7712-4DB3-BF5CFD420FEF">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:43:40 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_TIPOS_PUNTOS_VENTAS_CODIGO_TIPO_PUNTO_VENTA" id="2B05E010-0DFA-49F0-1632-76294F47879A">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:44:27 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="189C480A-B7A3-68D7-2EBD-0791FD9EB776" referredColumn="9EDB5EAF-9F9F-6511-91ED-E5FE1E597B57"/>
+</associations>
+</Column>
+<Column name="TBL_LUGARES_CODIGO_LUGAR" id="1E9AD501-A453-B151-AE47-8CB3F585F9D0">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:48:19 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42705D3-D7A7-E7E7-0212-F52689E76BF3" referredColumn="C447B4A7-2307-9D94-00CD-2A37C504BD65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0B6C16A-EC7D-16B0-A3EB-16D2278D709C" name="TBL_PUNTOS_VENTAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:44:45 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5D761C-7EF3-5A99-2167-FE9AEDCA23DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3476033-9D17-73E7-A082-764706B3CB70" name="TBL_PUNTOS_VENTAS_TBL_TIPOS_PUNTOS_VENTAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:44:27 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B05E010-0DFA-49F0-1632-76294F47879A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FE24EE5-2734-0E92-52A5-668A9689E421" name="TBL_PUNTOS_VENTAS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:48:19 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E9AD501-A453-B151-AE47-8CB3F585F9D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAA2CBA4-CB8B-0C0F-DD15-1C51D7BACB5E" name="TBL_ESTADOS_HISTORIAL">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:46:20 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_HISTORIAL" id="5C6A5C7D-B3BF-A053-5E8D-079636AA2AE8">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:47:23 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="13F3CB7C-5C39-1AD0-6746-015457F0A517">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:47:23 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="343BFB47-FF90-673F-B307-74D9BE27015B" name="TBL_ESTADOS_HISTORIAL_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2023-10-24 01:48:06 UTC</createdTime>
+<ownerDesignName>DB_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C6A5C7D-B3BF-A053-5E8D-079636AA2AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

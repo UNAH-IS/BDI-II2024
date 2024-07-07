@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED999BAE-F508-4AC5-AA0A-1D044657153A" name="TBL_PAGOS_PLANES">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:36:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRANSACCION" id="B988A904-14CC-3565-8DE4-7AF25D9E2730">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO_PAGO" id="A7EAC7FC-E491-4572-A733-272FE3C7712B">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:26 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62652CBA-51BF-8756-E170-8D0CCCA61D5F" referredColumn="19AA9E14-F2EA-7A22-6AE3-0CD1E56F4EEA"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_TELEFONICA" id="85DBFB9A-6588-48A1-15E4-E483B3CD6A13">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:34 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B289F40-95B7-0E89-61F6-A7E05C95DA74" referredColumn="4EA94A54-4CD5-6AE6-2166-D2F78642BE67"/>
+</associations>
+</Column>
+<Column name="COSTO" id="7CAEC2D1-F9C6-2C11-7E29-672355E95D3C">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_TRANSACCION" id="65ECCDC5-2513-0C7F-8E99-1F1B82B1B974">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="BB1028EB-C343-0F50-18F2-E6C7D0A7EBBB">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="3F41CC4F-08AE-9035-787A-FD7633B9F680">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PLAN" id="00A5C8F4-42A0-11A8-61F7-CFEFB63D6C1A">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:42:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A37683D4-1439-C209-0001-61A2D10A8701" referredColumn="21B0FB7C-BEFB-FCE6-B3C2-C76F8DAD2154"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED1B8119-89CC-55DE-6C3E-21100DD8E905" name="TBL_PAGOS_PLANES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:37 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B988A904-14CC-3565-8DE4-7AF25D9E2730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E395F367-6130-7156-A837-2B980B959AB6" name="TBL_PAGOS_PLANES_TBL_ESTADOS_PAGOS_PLANES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:26 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7EAC7FC-E491-4572-A733-272FE3C7712B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CD73CF9-5454-FF2A-AE8D-8E3E5EAD3D9F" name="TBL_PAGOS_PLANES_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:34 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85DBFB9A-6588-48A1-15E4-E483B3CD6A13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC1E87F9-4FBE-D880-0244-9F01FFCFDBF8" name="TBL_PAGOS_PLANES_TBL_PLANES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:42:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A5C8F4-42A0-11A8-61F7-CFEFB63D6C1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

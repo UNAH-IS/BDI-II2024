@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BF4B976-8AE2-F21A-B179-A3A49D61122A" name="TBL_HABILIDADES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:12:38 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HABILIDAD" id="B2C3E252-C47D-816B-F543-FB0D1D171FD1">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:13:25 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_HABILIDAD" id="DACC8005-5BC6-E107-86B2-505049213833">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:13:25 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FC8EA59-FA40-45A3-C6B7-0F6D2E3A2860" name="TBL_HABILIDADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:13:25 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2C3E252-C47D-816B-F543-FB0D1D171FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

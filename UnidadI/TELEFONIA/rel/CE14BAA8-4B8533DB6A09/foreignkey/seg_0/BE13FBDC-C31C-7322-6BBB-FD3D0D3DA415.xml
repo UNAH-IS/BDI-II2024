@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE13FBDC-C31C-7322-6BBB-FD3D0D3DA415" containerWithKeyObject="E981530C-F0E9-37EB-A943-8F927E001294" localFKIndex="665978CA-3714-5135-6632-FA1D9C3AA101" name="TBL_SERVICIOS_X_PAQUETES_TBL_PAQUETES_PREPAGO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:19 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<referredTableLongName>TBL_PAQUETES_PREPAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC7501D8-A6AC-7FD8-31F5-16737CACA12F</referredTableID>
+<keyObject>4EFB164D-419B-F0C6-2272-E03A71BA2620</keyObject>
+<referredKeyID>4EFB164D-419B-F0C6-2272-E03A71BA2620</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAQUETE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

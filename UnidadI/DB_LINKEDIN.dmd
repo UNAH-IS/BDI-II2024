@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_LINKEDIN" id="B0884863-1146-C0DC-1E18-1A0ABDCB7503" version="3.5">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:29:58 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B0884863-1146-C0DC-1E18-1A0ABDCB7503</designId>
+</OSDM_Design>

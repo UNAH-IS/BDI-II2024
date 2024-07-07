@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF9FB6DA-B359-B0B6-4F39-9A5153A2BF5A" name="TBL_ENLACES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:44:50 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ENLACE" id="95C0C767-E23F-52E1-59FD-A332DF3B76F5">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="88B900A8-5F84-958E-F8AB-D61E9893D74E">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:46:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5795160C-C028-18F9-AEAD-DBDC0B12B4E3" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="URL" id="8ED6B78B-34DE-6E0D-5CC2-F81D3163031D">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="FC2FB017-E36A-3C91-0DAC-E7FA49B22FB0">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="3DE86D41-C516-153C-F153-15DBF04E272B">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_IMAGEN" id="F4EA7639-18B0-FF2B-6258-D1FC346E8AA4">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="36CF2E68-69EE-8509-F551-1B1709025C3D">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="322215E1-B177-FB5C-9A5B-AEDCF1FD04A3" name="TBL_ENLACES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:45:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C0C767-E23F-52E1-59FD-A332DF3B76F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD948934-4393-5837-5556-B37A2D454F72" name="TBL_ENLACES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-02 00:46:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88B900A8-5F84-958E-F8AB-D61E9893D74E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

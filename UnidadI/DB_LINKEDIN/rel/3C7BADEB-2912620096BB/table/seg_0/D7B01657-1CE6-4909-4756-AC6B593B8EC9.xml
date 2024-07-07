@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B01657-1CE6-4909-4756-AC6B593B8EC9" name="TBL_NIVELES_CERTIFICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:41:26 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_NIVEL" id="3576847D-0A58-4D1D-B03C-FFF68866E0C1">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:41:55 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_NIVEL" id="4C9B6987-B187-0F4C-EF22-04DB3F5E2248">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:41:55 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEC2FFE4-A93E-3140-34C6-43C701CDCD00" name="TBL_NIVELES_CERTIFICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:41:55 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3576847D-0A58-4D1D-B03C-FFF68866E0C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

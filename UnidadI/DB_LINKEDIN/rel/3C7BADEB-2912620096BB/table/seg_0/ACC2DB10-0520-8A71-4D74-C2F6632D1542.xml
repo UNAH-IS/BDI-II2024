@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACC2DB10-0520-8A71-4D74-C2F6632D1542" name="TBL_APROBACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:19:38 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_APROBACION" id="72E2C837-90FF-F84D-9101-BCA3299CEBE2">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:20:18 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_APRUEBA" id="E07B68AB-8C4B-359F-F132-634650206AF5">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:25:27 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F14D4109-78BA-841C-8415-8EBE8E96F99A" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="944B26A3-B636-E0F3-CB5B-315B94E9F65D">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:27:42 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACC9916B-03CD-39DF-CBC3-A7D379A88324" referredColumn="AEE2F541-8918-E609-BA69-67C1DB2EEF69"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="863E74E7-7865-7C35-0531-0A7C77CE54E4">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:27:42 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACC9916B-03CD-39DF-CBC3-A7D379A88324" referredColumn="3368B5DE-4BE2-4715-0180-B1F62E8E5E51"/>
+</associations>
+</Column>
+<Column name="FECHA_APROBACION" id="7D86B426-2813-BDAD-A386-39A9CD50F1C7">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:20:18 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3037348-C9A4-5ABB-B921-8826377ED6FF" name="TBL_APROBACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:28:21 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72E2C837-90FF-F84D-9101-BCA3299CEBE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAEB8E6C-2E22-B7C3-0C76-DA6E373F5A53" name="TBL_APROBACIONES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:25:27 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E07B68AB-8C4B-359F-F132-634650206AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74F18BC8-3D5C-F1FA-AACC-BA2D0C927500" name="TBL_APROBACIONES_TBL_HABILIDADES_X_USUARIO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:27:42 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="944B26A3-B636-E0F3-CB5B-315B94E9F65D"/>
+<colUsage columnID="863E74E7-7865-7C35-0531-0A7C77CE54E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

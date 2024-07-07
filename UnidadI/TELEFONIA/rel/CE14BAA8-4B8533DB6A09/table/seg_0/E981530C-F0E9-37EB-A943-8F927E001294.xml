@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E981530C-F0E9-37EB-A943-8F927E001294" name="TBL_SERVICIOS_X_PAQUETES">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:13:51 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAQUETE" id="5DEE5B05-07A7-0CB5-41B3-E16F86604F13">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:19 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE13FBDC-C31C-7322-6BBB-FD3D0D3DA415" referredColumn="8BFAB0A9-FB83-6B92-46F9-1C640B07483F"/>
+</associations>
+</Column>
+<Column name="CODIGO_SERVICIO" id="945A9FAE-6ED3-B430-052C-B3A0D71566B5">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:53 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EF6BF0E-C5EF-56DB-6DE1-8D700027C277" referredColumn="CF55B914-8740-68D0-091B-A5739A09468E"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="2B9FBF7F-F8F1-C935-62FA-2057521C5FAE">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:06 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="AED35211-9C66-1B7C-053F-41FD3BE42B7F">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:06 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C02172F4-79F2-629D-66D3-D51FC6FEE776" name="TBL_SERVICIOS_X_PAQUETES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:16:18 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DEE5B05-07A7-0CB5-41B3-E16F86604F13"/>
+<colUsage columnID="945A9FAE-6ED3-B430-052C-B3A0D71566B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665978CA-3714-5135-6632-FA1D9C3AA101" name="TBL_SERVICIOS_X_PAQUETES_TBL_PAQUETES_PREPAGO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:19 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DEE5B05-07A7-0CB5-41B3-E16F86604F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B67F5A8-3026-28DB-D1E0-13A28AD9AED5" name="TBL_SERVICIOS_X_PAQUETES_TBL_SERVICIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:15:53 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="945A9FAE-6ED3-B430-052C-B3A0D71566B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

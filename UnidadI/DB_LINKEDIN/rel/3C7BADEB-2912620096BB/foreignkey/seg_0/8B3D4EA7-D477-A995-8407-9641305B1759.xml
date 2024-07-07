@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B3D4EA7-D477-A995-8407-9641305B1759" containerWithKeyObject="263FC6DA-315A-704F-FEB0-12FD0C1402DC" localFKIndex="DC4B8364-3B56-9342-69BA-8B42CC53E560" name="TBL_LOGROS_TBL_AREAS_ESTUDIO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-03 00:43:08 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_AREAS_ESTUDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEE10645-D428-6A78-E44C-80C251938F49</referredTableID>
+<keyObject>79C690CB-8E9F-9559-0008-BE9898E572E2</keyObject>
+<referredKeyID>79C690CB-8E9F-9559-0008-BE9898E572E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_AREA_ESTUDIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D31A17B1-8288-79C9-4B5D-014678780DED" name="TBL_PLANES">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:27:21 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAN" id="21B0FB7C-BEFB-FCE6-B3C2-C76F8DAD2154">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:31:38 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLAN" id="A3AB923C-58DD-44DC-CB83-F6B69607CD7D">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:31:38 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="DC188149-9D42-16D4-3B03-594891777C70">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:31:38 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="344D588F-3BE7-4B55-49E6-A6979F97D2AD" name="TBL_PLANES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:31:38 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B0FB7C-BEFB-FCE6-B3C2-C76F8DAD2154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

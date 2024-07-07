@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FED5CA8F-4D12-B636-726E-1AAF9AC41B9C" containerWithKeyObject="64739C29-1699-0BD7-092C-B08A11556D5A" localFKIndex="4A4AD63D-DFF2-AB18-D242-668E8591C415" name="TBL_COMPRAS_PAQUETES_TBL_PUNTOS_VENTAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:23:29 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<referredTableLongName>TBL_PUNTOS_VENTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7203CEA9-A5B6-5E59-696E-1CC750604A7B</referredTableID>
+<keyObject>D0B6C16A-EC7D-16B0-A3EB-16D2278D709C</keyObject>
+<referredKeyID>D0B6C16A-EC7D-16B0-A3EB-16D2278D709C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PUNTO_VENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

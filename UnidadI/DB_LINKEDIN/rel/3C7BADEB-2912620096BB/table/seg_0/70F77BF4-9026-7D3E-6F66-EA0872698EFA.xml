@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70F77BF4-9026-7D3E-6F66-EA0872698EFA" name="TBL_PUBLICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:45:44 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="3D378778-2BD5-A94F-5DBF-83BEF189774F">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:29 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="A91C8C34-42B8-F276-AFE6-3F51475A2B66">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441ACA35-8C88-3E69-AFC1-EE941CB06734" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="FECHA_PUBLICACION" id="AD00DD3E-B7B3-7B68-E925-65A65DD49B10">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:29 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO" id="0053444D-D6A4-3C69-C29E-3EEB97361FF4">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:29 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GRUPO" id="44015B2A-C0BA-99DE-CD4F-3F7A535C7DAC">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:48:07 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30A99ED1-2ACB-1B1C-F8C9-CEE74AEEEA0F" referredColumn="783828BA-5D3E-C8D8-CF10-9B00E723C387"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C986B04D-BB3D-B97A-072E-391431F860EC" name="TBL_PUBLICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:29 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D378778-2BD5-A94F-5DBF-83BEF189774F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CCF8AB2-E7BA-F3F8-3FBB-39FF7CF9BBC3" name="TBL_PUBLICACIONES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:46:57 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A91C8C34-42B8-F276-AFE6-3F51475A2B66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0020BABB-39C2-1954-2B5C-CFD239210CE5" name="TBL_PUBLICACIONES_TBL_GRUPOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-04 00:48:07 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44015B2A-C0BA-99DE-CD4F-3F7A535C7DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

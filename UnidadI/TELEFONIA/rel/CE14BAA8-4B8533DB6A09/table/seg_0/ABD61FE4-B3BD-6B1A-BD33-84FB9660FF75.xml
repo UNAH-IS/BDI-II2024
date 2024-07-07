@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABD61FE4-B3BD-6B1A-BD33-84FB9660FF75" name="TBL_SERVICIOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:20:13 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SERVICIO" id="CF55B914-8740-68D0-091B-A5739A09468E">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:21:30 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SERVICIO" id="8FBB0434-9A68-18F4-D1AF-B9C17C63CC87">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:21:30 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDAD_MEDIDA" id="3D7C7D7F-498E-EEDF-D5AB-34BC844D021C">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:21:30 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF1C5989-2EFB-1C6F-EB4A-67F69DF6FD0B" name="TBL_SERVICIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:21:30 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF55B914-8740-68D0-091B-A5739A09468E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

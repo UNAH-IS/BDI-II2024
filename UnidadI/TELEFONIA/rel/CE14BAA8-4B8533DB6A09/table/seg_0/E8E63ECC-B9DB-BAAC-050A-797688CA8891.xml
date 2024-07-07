@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8E63ECC-B9DB-BAAC-050A-797688CA8891" name="TBL_ACREDITACIONES_SALDO">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:38:35 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ACREDITACION" id="025801F4-2521-2873-126F-8ABC5A68B86F">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUNTO_VENTA" id="C8FF6854-D9DD-310B-89A2-9E10B3D824FF">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:44:59 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C094048-0C17-A6F1-789A-BD3BF0C80754" referredColumn="EB5D761C-7EF3-5A99-2167-FE9AEDCA23DE"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_TELEFONICA" id="44212C40-02D1-0B83-F6D5-224284C5F3CE">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:45:14 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86070B2B-9D75-D348-2FA7-CC0DDF5D532D" referredColumn="4EA94A54-4CD5-6AE6-2166-D2F78642BE67"/>
+</associations>
+</Column>
+<Column name="FECHA_ACREDITACION" id="EF0376DE-B635-BF92-6AEE-A628345ABB8E">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="1E9A1304-6E2B-4E03-5761-DB49327E2832">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENCIMIENTO" id="EB24A130-210F-36F1-E0A4-9E3B08D87BD3">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4C7E3BC-20E9-46DC-31B0-76E929E2D3ED" name="TBL_ACREDITACIONES_SALDO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:41:07 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="025801F4-2521-2873-126F-8ABC5A68B86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="279B0F05-5A18-EB3D-1975-163C018EE663" name="TBL_ACREDITACIONES_SALDO_TBL_PUNTOS_VENTAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:44:59 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8FF6854-D9DD-310B-89A2-9E10B3D824FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F1C2AA-3E98-DB1F-3FDA-0ED45E765D23" name="TBL_ACREDITACIONES_SALDO_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-26 00:45:14 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44212C40-02D1-0B83-F6D5-224284C5F3CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B95730D-F596-653B-DF94-00582A7816E9" containerWithKeyObject="3391B987-4C12-189B-918A-46B98350ACBE" localFKIndex="933FC064-6B68-EDE5-7972-129EB29DEFCD" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:26:45 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<referredTableLongName>TBL_EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3391B987-4C12-189B-918A-46B98350ACBE</referredTableID>
+<keyObject>9DA4B644-EF63-838D-079C-B00999CDED63</keyObject>
+<referredKeyID>9DA4B644-EF63-838D-079C-B00999CDED63</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_EMPLEADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70EF8AD9-6DBA-DE8F-E113-C94727290734" name="TBL_ESTADOS_PAGOS_PLANES">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:38:39 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_PAGO" id="19AA9E14-F2EA-7A22-6AE3-0CD1E56F4EEA">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:12 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_PAGO" id="57EFD76C-76C8-3D47-195E-AECAAC642E38">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:12 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32AE4BBD-8B89-9AAD-4807-299347C50CC8" name="TBL_ESTADOS_PAGOS_PLANES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-27 00:39:12 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19AA9E14-F2EA-7A22-6AE3-0CD1E56F4EEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D76CD31B-98D4-092B-6508-F98479B8FAC5" name="TBL_PUESTOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:03 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUESTO" id="4CB8A3D6-9B6C-DEC4-43EF-8124306773C0">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUESTO" id="DED1F282-9382-8F68-2B88-0B8C4136456B">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MINIMO" id="3E30753F-3CD6-371F-0BA6-C1DB0BEEA98A">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MAXIMO" id="DD8D241D-54B2-657A-10A1-DFF05266A484">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3C032B7-6BEB-0FF6-AAED-72C3A217D67B" name="TBL_PUESTOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-06-28 00:27:31 UTC</createdTime>
+<ownerDesignName>TELEFONIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB8A3D6-9B6C-DEC4-43EF-8124306773C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
