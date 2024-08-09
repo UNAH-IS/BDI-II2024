@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="884C8B1A-4473-BB00-8C63-56DDB0BAE0DB" name="TBL_CONEXIONES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:24:43 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO_ENVIA" id="C0C21190-D7C9-6B60-6A14-4933C1295058">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:26:13 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1458E74E-B590-FB15-9198-C47D2FF83317" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_RECIBE" id="7E0592C7-DF76-801A-1957-715E2F5EE07C">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:26:19 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC27690A-3A77-F413-FBBE-71998B902ACF" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_CONEXION" id="0BF64C7C-3F9E-6065-68DB-706E0852E1AF">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:25:55 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44144C9-D79D-5CA2-3B8D-09EB97C92906" referredColumn="E51FCC37-4173-0478-6AE0-4E3C92D13A00"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="E05AEE29-9938-A5B5-73BF-9026A25D8FBE">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:25:10 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E9A426B-15BD-3AD8-D51C-0D7C98A30681" name="TBL_CONEXIONES_TBL_ESTADO_CONEXION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:25:55 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF64C7C-3F9E-6065-68DB-706E0852E1AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F33896A-F6BE-C965-98C2-A5E4BE118B76" name="TBL_CONEXIONES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:26:13 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0C21190-D7C9-6B60-6A14-4933C1295058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9D75D1F-335B-27DB-BE82-0B44065EA06C" name="TBL_CONEXIONES_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:26:19 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0592C7-DF76-801A-1957-715E2F5EE07C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5CC0B5C-41F4-8923-760D-6F98E213D9AB" name="TBL_MENSAJES">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:28:48 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MENSAJE" id="04026B4F-6E67-5B76-4B44-4CC5F62A0713">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:29:53 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_ENVIA" id="C1BB09B1-CE42-A15A-0C3C-F5C7DB603308">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8B36137-B800-6A9E-8297-AB4D4DA7667C" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_RECIBE" id="874FF32C-7ABF-E529-18FA-0577841AF127">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F98948D-9DC9-785D-956C-DBEEBE0FA841" referredColumn="401B6140-8E77-C418-08D6-863C7FB87B58"/>
+</associations>
+</Column>
+<Column name="CODIGO_GRUPO" id="3C822C9E-04E4-EE0E-734F-C298E3F588B0">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:22 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE76C32A-AF1A-9206-7F71-A116AC589FFB" referredColumn="783828BA-5D3E-C8D8-CF10-9B00E723C387"/>
+</associations>
+</Column>
+<Column name="MENSAJE" id="20125EFE-8D2D-9D21-8587-87B09A97F308">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:29:53 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA" id="68E805A9-2E35-476A-A11D-8F8E5B5D7F8F">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:29:53 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN" id="965FD3F9-6FF8-9B19-BEBB-6356B037A5D1">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:29:53 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9465F206-128F-37CD-2871-1AA582DE7DCE" name="TBL_MENSAJES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:29:53 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04026B4F-6E67-5B76-4B44-4CC5F62A0713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33F65ADA-8D00-AF0F-A956-DB470FC32D09" name="TBL_MENSAJES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:02 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BB09B1-CE42-A15A-0C3C-F5C7DB603308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6DFA92-33E2-1B67-202D-16C9EA52E447" name="TBL_MENSAJES_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:09 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="874FF32C-7ABF-E529-18FA-0577841AF127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C42FE8-846E-BB39-702A-09DCE2D17624" name="TBL_MENSAJES_TBL_GRUPOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-07-09 00:31:22 UTC</createdTime>
+<ownerDesignName>DB_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C822C9E-04E4-EE0E-734F-C298E3F588B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
